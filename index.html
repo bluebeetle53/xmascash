@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="money, Christmas, Make money this Christmas with no fee , free money">
+    <meta name="description" content=" Earn up to 500k with just ₦10">
+    <meta name="author" content="ahuahukwe">
+    <title>XmasCash Tasks</title>
+      <link rel="icon" type="image/png" href="https://euvataction.org/wp-content/uploads/2023/03/make-600k-naira-768x512.jpg" sizes="32x32">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ffe8e8, #ffd1dc);
+            color: #333;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .navbar .logo img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .navbar .title {
+            font-size: 1.5rem;
+        }
+
+        /* Task Section */
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .container h2 {
+            text-align: center;
+            color: #4e54c8;
+            margin-bottom: 20px;
+        }
+
+        .instructions {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .instructions strong {
+            color: #ff4081;
+        }
+
+        /* Progress Bar */
+        .progress-container {
+            margin: 20px 0;
+        }
+
+        .progress-bar {
+            width: 100%;
+            background: #ddd;
+            border-radius: 25px;
+            overflow: hidden;
+            height: 20px;
+        }
+
+        .progress-bar-inner {
+            width: 0%;
+            height: 100%;
+            background: linear-gradient(to right, #4e54c8, #ff4081);
+            text-align: center;
+            color: white;
+            line-height: 20px;
+            font-size: 0.8rem;
+            transition: width 0.3s ease-in-out;
+        }
+
+        /* Share Button */
+        .share-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background: #ff4081;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1rem;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
+
+        .share-btn:hover {
+            background: #e91e63;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #4e54c8;
+            color: white;
+            margin-top: 30px;
+        }
+        
+        
+                /* Bottom Sheet Styles */
+        .bottom-sheet {
+            position: fixed;
+            bottom: -100%;
+            left: 0;
+            width: 100%;
+            background: white;
+            border-radius: 12px 12px 0 0;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+            transition: bottom 0.4s ease-in-out;
+            z-index: 1001;
+        }
+
+        .bottom-sheet .header {
+            padding: 10px;
+            background: #4e54c8;
+            color: white;
+            font-size: 1.2rem;
+            text-align: center;
+            border-radius: 12px 12px 0 0;
+        }
+
+        .bottom-sheet .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .bottom-sheet iframe {
+            width: 100%;
+            height: 250px;
+        }
+
+        .bottom-sheet .close-btn {
+            margin-top: 10px;
+            padding: 10px;
+            background: #e91e63;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/128/3778/3778384.png" alt="XmasCash Logo">
+            <span class="title">XmasCash</span>
+        </div>
+    </div>
+
+    <!-- Tasks Container -->
+    <div class="container">
+        <h2>🎉 Facebook Share Tasks</h2>
+        <div class="instructions">
+            <p>
+                <strong>CONGRATULATIONS!</strong><br> 
+                You are among the selected members to receive double of their Xmas rewards after sharing our daily message to your WhatsApp.
+            </p>
+            <p>
+                <strong>HOW TO PROCEED:</strong>
+                <ol>
+                    <li>Share it with 5 groups or 20 friends and your status on WhatsApp (Click on the "SHARE" button below).</li>
+                    <li>After that, you will be redirected automatically to the "Claim Earnings" page after the BLUE verification bar is filled.</li>
+                    <li>You will then be redirected to the giveaway page where you'll input your account details and receive a giveaway cash reward.</li>
+                </ol>
+            </p>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="progress-bar-inner" id="progress-bar">0%</div>
+            </div>
+        </div>
+
+        <!-- Share Button -->
+        <a href="#" id="share-btn" class="share-btn">
+            Share Now
+        </a>
+    </div><script type="text/javascript">
+	atOptions = {
+		'key' : '54e586f49a6121aa6c564b9285de7aa1',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//slushhelmetmirth.com/54e586f49a6121aa6c564b9285de7aa1/invoke.js"></script>
+  
+
+<script type='text/javascript' src='//slushhelmetmirth.com/8f/37/0f/8f370f68d61188fd982021f8f5999e68.js'></script>
+<script type='text/javascript' src='//slushhelmetmirth.com/5f/8a/71/5f8a710eaae708ddedca22a14f227181.js'></script>
+
+
+    <!-- Bottom Sheet -->
+    <div class="bottom-sheet" id="bottom-sheet">
+        <div class="header">Advertisment</div>
+        <div class="content">
+<script type="text/javascript">
+	atOptions = {
+		'key' : '54e586f49a6121aa6c564b9285de7aa1',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//slushhelmetmirth.com/54e586f49a6121aa6c564b9285de7aa1/invoke.js"></script>
+            <button class="close-btn" id="close-btn">Close</button>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>✨ XmasCash Giveaway - Make your holiday season magical! ✨</p>
+    </div>
+
+    <script>
+        let progress = 0;
+        const progressBar = document.getElementById('progress-bar');
+        const shareBtn = document.getElementById('share-btn');
+
+        const websiteURL = "https://example.com"; // Replace with your website's URL
+        const shareText = encodeURIComponent(
+            `🎉 Hi there! I just received my giveaway, and I couldn’t wait to share this exciting opportunity with you! Did you know you can start with as little as ₦10 and double it to ₦20? Or invest ₦500 and watch it grow to ₦1,000 in just minutes!\n\n` +
+            `It's a fantastic way to make the most of your holiday season, and it won’t cost you anything to join! Don’t miss out—join XmasCash today and start maximizing your earnings! 💰✨\n\n` +
+            `${websiteURL}`
+        );
+
+        // Share Button Event Listener
+        shareBtn.addEventListener('click', () => {
+            progress += 5;
+            if (progress <= 20) {
+                // Update Progress Bar
+                progressBar.style.width = progress + '%';
+                progressBar.textContent = progress + '%';
+
+                // Open Facebook share with pre-filled text
+                window.open(
+                    `https://www.facebook.com/sharer/sharer.php?u=${websiteURL}&quote=${shareText}`,
+                    "_blank"
+                );
+            }
+
+            // Redirect to index.html when progress reaches 20%
+            if (progress === 20) {
+                setTimeout(() => {
+                    window.location.href = "home.html";
+                }, 1000);
+            }
+        });
+    </script>
+    <script type='text/javascript' src='//slushhelmetmirth.com/7a/ea/37/7aea374aead78bb3565a57a14614b80d.js'></script>
+    
+    
+    <script>
+        const bottomSheet = document.getElementById('bottom-sheet');
+        const closeBtn = document.getElementById('close-btn');
+
+        // Show bottom sheet after a delay
+        setTimeout(() => {
+            bottomSheet.style.bottom = '0';
+        }, 3000);
+
+        // Close bottom sheet
+        closeBtn.addEventListener('click', () => {
+            bottomSheet.style.bottom = '-100%';
+        });
+    </script>
+    
+</body>
+</html>
